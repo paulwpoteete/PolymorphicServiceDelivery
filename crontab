@@ -1,0 +1,18 @@
+SHELL=/bin/sh
+
+### Academic Research - Polymorphic Service Delivery
+# Apache2 /root/10001.sh at minutes 0, 6, 12, 18, 24, 30, 36, 42, 48, 54
+#0,6,12,18,24,30,36,42,48,54 * * * * root /root/10001.sh
+
+# Lighttpd /root/10002.sh at minutes 2, 8, 14, 20, 26, 32, 38, 44, 50, 56
+#2,8,14,20,26,32,38,44,50,56 * * * * root /root/10002.sh
+
+# h2o /root/10003.sh at minutes 4, 10, 16, 22, 28, 34, 40, 46, 52, 58
+#4,10,16,22,28,34,40,46,52,58 * * * * root /root/10003.sh
+
+# 20250630.1705hrs - Changed to 3 Second Intervals PWP
+@reboot		root	/root/psd.sh
+
+00 00	* * *	root	/root/sys_backup.sh
+
+00 *	* * *	root	/var/log/PolymorphicServiceDelivery/update.sh
