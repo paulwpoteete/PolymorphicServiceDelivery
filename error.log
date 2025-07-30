@@ -1,0 +1,52 @@
+new worker is now running, sending TERM to old workers:3220794
+killing old workers
+received HUP, spawning a new worker
+received SIGTERM, gracefully shutting down
+starting new worker 3221270
+[INFO] raised RLIMIT_NOFILE to 65536
+h2o server (pid:3221270) is ready to serve requests
+2025-07-30 03:49:42: (server.c.1939) server started (lighttpd/1.4.74)
+new worker is now running, sending TERM to old workers:3220794,3221190
+killing old workers
+received SIGTERM, gracefully shutting down
+old worker 3220794 died, status:0
+old worker 3221190 died, status:0
+:::Lighttpd Wed Jul 30 03:49:44 AM EDT 2025:::
+:::h2o Wed Jul 30 03:49:47 AM EDT 2025:::
+:::Apache2 Wed Jul 30 03:49:50 AM EDT 2025:::
+:::Lighttpd Wed Jul 30 03:49:53 AM EDT 2025:::
+:::h2o Wed Jul 30 03:49:56 AM EDT 2025:::
+:::Apache2 Wed Jul 30 03:49:59 AM EDT 2025:::
+:::Lighttpd Wed Jul 30 03:50:03 AM EDT 2025:::
+:::h2o Wed Jul 30 03:50:06 AM EDT 2025:::
+:::Apache2 Wed Jul 30 03:50:09 AM EDT 2025:::
+:::Lighttpd Wed Jul 30 03:50:12 AM EDT 2025:::
+:::h2o Wed Jul 30 03:50:15 AM EDT 2025:::
+:::Apache2 Wed Jul 30 03:50:18 AM EDT 2025:::
+:::Lighttpd Wed Jul 30 03:50:21 AM EDT 2025:::
+:::h2o Wed Jul 30 03:50:24 AM EDT 2025:::
+:::Apache2 Wed Jul 30 03:50:27 AM EDT 2025:::
+:::Lighttpd Wed Jul 30 03:50:30 AM EDT 2025:::
+:::h2o Wed Jul 30 03:50:33 AM EDT 2025:::
+:::Apache2 Wed Jul 30 03:50:36 AM EDT 2025:::
+:::Lighttpd Wed Jul 30 03:50:39 AM EDT 2025:::
+:::h2o Wed Jul 30 03:50:42 AM EDT 2025:::
+:::Apache2 Wed Jul 30 03:50:45 AM EDT 2025:::
+:::Lighttpd Wed Jul 30 03:50:48 AM EDT 2025:::
+:::h2o Wed Jul 30 03:50:51 AM EDT 2025:::
+:::Apache2 Wed Jul 30 03:50:54 AM EDT 2025:::
+:::Lighttpd Wed Jul 30 03:50:57 AM EDT 2025:::
+:::h2o Wed Jul 30 03:51:00 AM EDT 2025:::
+:::Apache2 Wed Jul 30 03:51:03 AM EDT 2025:::
+:::Lighttpd Wed Jul 30 03:51:06 AM EDT 2025:::
+:::h2o Wed Jul 30 03:51:09 AM EDT 2025:::
+:::Apache2 Wed Jul 30 03:51:12 AM EDT 2025:::
+:::Lighttpd Wed Jul 30 03:51:16 AM EDT 2025:::
+:::h2o Wed Jul 30 03:51:19 AM EDT 2025:::
+:::Apache2 Wed Jul 30 03:51:22 AM EDT 2025:::
+:::Lighttpd Wed Jul 30 03:51:25 AM EDT 2025:::
+:::h2o Wed Jul 30 03:51:28 AM EDT 2025:::
+:::Apache2 Wed Jul 30 03:51:31 AM EDT 2025:::
+:::Lighttpd Wed Jul 30 03:51:34 AM EDT 2025:::
+:::h2o Wed Jul 30 03:51:37 AM EDT 2025:::
+:::Apache2 Wed Jul 30 03:51:40 AM EDT 2025:::
